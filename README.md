@@ -10,6 +10,19 @@ Degas is an SVG drawing library.
 
 
 ## Usage
+<a name="createSVG"></a>
+
+## createSVG(width, height)
+Creates a new instance of SVGRef, given a width and height.
+
+**Kind**: global function  
+**See**: [SVGRef](SVGRef) for more on drawing operations.  
+
+| Param | Type | Description |
+| --- | --- | --- |
+| width | <code>number</code> | the total needed width for the canvas |
+| height | <code>number</code> | the total needed height for the canvas |
+
 <a name="SVGRef"></a>
 
 ## SVGRef()
