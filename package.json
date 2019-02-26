@@ -1,0 +1,22 @@
+{
+  "name": "degas",
+  "version": "1.0.0",
+  "description": "Degas is an SVG drawing library",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisladd/degas.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chrisladd/degas/issues"
+  },
+  "homepage": "https://github.com/chrisladd/degas#readme"
+}
