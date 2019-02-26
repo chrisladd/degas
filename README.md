@@ -26,12 +26,14 @@ Creates a new instance of SVGRef, given a width and height.
 <a name="SVGRef"></a>
 
 ## SVGRef()
-. SVG Ref is the base class for all SVG drawing.
+SVG Ref is the base class for all SVG drawing.
+You obtain an SVGRef instance by calling the method `degas.createSVG(width, height)`. From there, you call the methods of the returned object to add drawing operations, moving to points, createing lines, circles and rectangles, and drawing text within the bounds of the width and height passed in initially.
+When you've finished drawing, call the method `svg()` to apply these changes, and return an SVG string representing your drawing operations.
 
 **Kind**: global function  
 
 * [SVGRef()](#SVGRef)
-    * [.toString()](#SVGRef+toString)
+    * [.svg()](#SVGRef+svg)
     * [.clear()](#SVGRef+clear)
     * [.setFillColor(color)](#SVGRef+setFillColor)
     * [.setStrokeColor(color)](#SVGRef+setStrokeColor)
@@ -48,9 +50,9 @@ Creates a new instance of SVGRef, given a width and height.
     * [.endPath()](#SVGRef+endPath)
     * [.end()](#SVGRef+end)
 
-<a name="SVGRef+toString"></a>
+<a name="SVGRef+svg"></a>
 
-### svgRef.toString()
+### svgRef.svg()
 Returns an SVG string representing all operations currently applied to the SVGRef
 
 **Kind**: instance method of [<code>SVGRef</code>](#SVGRef)  
