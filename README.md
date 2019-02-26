@@ -16,7 +16,7 @@ Degas is an SVG drawing library.
 Creates a new instance of SVGRef, given a width and height.
 
 **Kind**: global function  
-**See**: [SVGRef](SVGRef) for more on drawing operations.  
+**See**: [#SVGRef](#SVGRef) for more on drawing operations.  
 
 | Param | Type | Description |
 | --- | --- | --- |
