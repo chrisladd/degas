@@ -1,5 +1,5 @@
 {
-  "name": "degas",
+  "name": "@cgl2/degas",
   "version": "1.0.0",
   "description": "Degas is an SVG drawing library",
   "main": "index.js",
@@ -18,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/chrisladd/degas/issues"
   },
-  "homepage": "https://github.com/chrisladd/degas#readme"
+  "homepage": "https://github.com/chrisladd/degas#readme",
+  "devDependencies": {
+    "chai": "^4.2.0"
+  }
 }

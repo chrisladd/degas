@@ -1,5 +1,5 @@
 
-const svg_ref = require('.lib/svg_ref');
+const svg_ref = require('./lib/svg_ref');
 
 /**
 *  Creates a new instance of SVGRef, given a width and height. 
